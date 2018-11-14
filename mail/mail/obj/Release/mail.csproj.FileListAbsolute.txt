@@ -1,0 +1,6 @@
+C:\Users\Patrik\source\projects\mail\mail\obj\Release\mail.csproj.CoreCompileInputs.cache
+C:\Users\Patrik\source\projects\mail\mail\bin\Release\mail.exe.config
+C:\Users\Patrik\source\projects\mail\mail\bin\Release\mail.exe
+C:\Users\Patrik\source\projects\mail\mail\bin\Release\mail.pdb
+C:\Users\Patrik\source\projects\mail\mail\obj\Release\mail.exe
+C:\Users\Patrik\source\projects\mail\mail\obj\Release\mail.pdb

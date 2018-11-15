@@ -6,19 +6,24 @@ using System.Threading.Tasks;
 
 namespace mail
 {
-	class Bejelentkezes
+	public class Bejelentkezes
 	{
 		static string nev;
 		static string jelszo;
 
-		static void Inditas()
+		public static void Inditas()
 		{
+			KepernyoTorles();
+
 			FelhasznaloInp();
+
+			KepernyoTorles();
+
 			JelszoInp();
 
 			if (EgyezikE())
 			{
-				//Menu.Inditas();
+				Menu.Inditas();
 			}
 		}
 
@@ -36,7 +41,12 @@ namespace mail
 
 		static bool EgyezikE()
 		{
-			return true;
+			return true; // EZT CSINÁLD MÁR MEG NORMÁLISAN TE SZR
+		}
+
+		static void KepernyoTorles()
+		{
+			Console.Clear();
 		}
 
 	}

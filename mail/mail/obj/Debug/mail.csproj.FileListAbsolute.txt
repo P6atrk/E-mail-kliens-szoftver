@@ -5,3 +5,9 @@ C:\Users\Patrik\source\projects\mail\mail\obj\Debug\mail.csprojResolveAssemblyRe
 C:\Users\Patrik\source\projects\mail\mail\obj\Debug\mail.csproj.CoreCompileInputs.cache
 C:\Users\Patrik\source\projects\mail\mail\obj\Debug\mail.exe
 C:\Users\Patrik\source\projects\mail\mail\obj\Debug\mail.pdb
+Z:\Programozás\mail\mail\bin\Debug\mail.exe.config
+Z:\Programozás\mail\mail\obj\Debug\mail.exe
+Z:\Programozás\mail\mail\obj\Debug\mail.pdb
+Z:\Programozás\mail\mail\obj\Debug\mail.csprojResolveAssemblyReference.cache
+Z:\Programozás\mail\mail\bin\Debug\mail.exe
+Z:\Programozás\mail\mail\bin\Debug\mail.pdb

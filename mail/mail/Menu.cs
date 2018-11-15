@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
 
 namespace mail
 {
-	public class KezdoKepernyo
+	public class Menu
 	{
 		static char input;
 
@@ -21,23 +20,11 @@ namespace mail
 
 			Opciok();
 		}
-		
-		static void Opciok()
+
+		static void Kiiras()
 		{
-			switch (input)
-			{
-				case '0':
-					Kilepes();
-					break;
-				case '1':
-					Regisztracio.Inditas();
-					break;
-				case '2':
-					Bejelentkezes.Inditas();
-					break;
-				default:
-					break;
-			}
+			Console.WriteLine("Írja be a használni kívánt művelet számát");
+			Console.WriteLine("0 Kilépés\n1 Beérkező levelek\n2 Levélírás\n");
 		}
 
 		static void Input()
@@ -55,15 +42,37 @@ namespace mail
 			} while (!joInput);
 		}
 
-		static void Kiiras()
+		static void Opciok()
 		{
-			Console.WriteLine("Írja be a használni kívánt művelet számát");
-			Console.WriteLine("0 Kilépés\n1 Regisztráció\n2 Bejelentkezés\n");
+			switch (input)
+			{
+				case '0':
+					Kilepes();
+					break;
+				case '1':
+					BeerkezoLevelek();
+					break;
+				case '2':
+					Leveliras();
+					break;
+				default:
+					break;
+			}
 		}
 
 		static void Kilepes()
 		{
 			Environment.Exit(0);
+		}
+
+		static void BeerkezoLevelek()
+		{
+
+		}
+
+		static void Leveliras()
+		{
+
 		}
 
 		static void KepernyoTorles()

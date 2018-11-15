@@ -207,7 +207,7 @@ namespace mail
 
 		static void FelhFajlLetrehozasa()
 		{
-			File.Create($"../../felhasznalok/{nev}.txt");
+			File.Create(String.Format("../../felhasznalok/{0}.txt", nev));
 		}
 
 		static void AdatBevitel()
